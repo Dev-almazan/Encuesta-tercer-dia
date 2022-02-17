@@ -58,8 +58,8 @@
                   <div class="col-md-3">
                       <div class="form-group">
 
-                            <label class="custom-control text-dark" >Correo empresarial</label>
-                            <input id="correo" type="mail" class="form-control "  name="correo" required>
+                                  <label class="custom-control text-dark" ># Empleado SAP  </label>
+                                  <input id="sap" type="number" size="5" class="form-control "  required >
                     </div>
                   </div>
 
@@ -82,60 +82,79 @@
                                   <input id="clase" type="number" size="5" class="form-control "  required >
                           </div>
                         </div>
-
-                        <div class="col-md-3">
-                            <div class="form-group">
-
-                                  <label class="custom-control text-dark" ># Empleado SAP  </label>
-                                  <input id="sap" type="number" size="5" class="form-control "  required >
-                          </div>
                         </div>
                 
 
             </div>
 
-            <h4 class="text-center pt-4 pb-4">Tu instructor:  </h4>
-
             <div class="col-md-12 ">
 
-                          <div class="form-group">
-
-                                <label class="custom-control text-dark" >1. ¿Te explicó las métricas de tu campaña (tiempo de llamada, calidad, asistencia, puntualidad. etc.)?</label>
-                                <input type="radio" name="preg1" value="s" required>Sí<br>
-                                <input type="radio" name="preg1" value="n">No<br>
-                        </div>
-
                         <div class="form-group pt-4">
 
-                          <label class="custom-control text-dark" >2. ¿Te entregó de manera oportuna el cuaderno de trabajo?</label>
-                          <input type="radio" name="preg2" value="s" required>Sí<br>
-                          <input type="radio" name="preg2" value="n">No<br>
+                            <label class="custom-control text-dark" >1. ¿Tu instructor te entregó de manera oportuna el cuaderno de trabajo?</label>
+                            <input type="radio" name="preg1" value="s" required>Sí<br>
+                            <input type="radio" name="preg1" value="n">No<br>
 
                         </div>
 
                         <div class="form-group pt-4">
 
-                            <label class="custom-control text-dark" >3. ¿Resolvio todas tus dudas? </label>
+                            <label class="custom-control text-dark" >2. ¿Tu instructor te ha orientado cuando presentas dudas respecto al contenido del curso? </label>
+                            <input type="radio" name="preg2" value="siempre" required>Siempre<br>
+                            <input type="radio" name="preg2" value="casi siempre">Casi siempre<br>
+                            <input type="radio" name="preg2" value="a veces">A veces<br>
+                            <input type="radio" name="preg2" value="nunca">Nunca<br>
+                        </div>
+
+                        <div class="form-group pt-4">
+
+                            <label class="custom-control text-dark" >3. ¿Tu instructor se dirige con un lenguaje cordial y respetuoso? </label>
                             <input type="radio" name="preg3" value="siempre" required>Siempre<br>
                             <input type="radio" name="preg3" value="casi siempre">Casi siempre<br>
                             <input type="radio" name="preg3" value="a veces">A veces<br>
                             <input type="radio" name="preg3" value="nunca">Nunca<br>
                         </div>
 
-                        <div class="form-group pt-4 ">
-       
-                            <label class="custom-control text-dark" >4. ¿Te explicó las funciones generales de tu campaña? </label>
-                              <input type="radio" name="preg4" value="siempre" required>Siempre<br>
-                              <input type="radio" name="preg4" value="casi siempre">Casi siempre<br>
-                              <input type="radio" name="preg4" value="a veces">A veces<br>
-                      
-                      </div>
+                        <div class="form-group pt-4">
 
-                      <div class="form-group pt-4">
+                            <label class="custom-control text-dark" >4. ¿El equipo de reclutamiento te explicó de manera general funciones de tu campaña, esquema de pagos y prestaciones? </label>
+                            <input type="radio" name="preg4" value="siempre" required>Siempre<br>
+                            <input type="radio" name="preg4" value="casi siempre">Casi siempre<br>
+                            <input type="radio" name="preg4" value="a veces">A veces<br>
+                            <input type="radio" name="preg4" value="nunca">Nunca<br>
+                        </div>
 
-                        <label class="custom-control text-dark" >Por favor, déjanos un comentario. </label>
-                        <textarea  class="form-control" id="comentario" rows="3" required></textarea>
-                      </div>
+                        <div class="form-group pt-4">
+
+                            <label class="custom-control text-dark" >5. ¿Tu instrucor te explicó las funciones generales de tu campaña? </label>
+                            <input type="radio" name="preg5" value="s" required>Sí<br>
+                            <input type="radio" name="preg5" value="n">No<br>
+                        </div>
+
+                        <div class="form-group pt-4">
+
+                            <label class="custom-control text-dark" >6. ¿El equipo de cómputo se encuentra n las condiciones necesarias para practicar los procedimientos revisados? </label>
+                            <input type="radio" name="preg6" value="s" required>Sí<br>
+                            <input type="radio" name="preg6" value="n">No<br>
+                        </div>
+
+                        <div class="form-group pt-4">
+
+                            <label class="custom-control text-dark" >7. ¿Tu instructor te guía a cumplir los acuerdos de capacitación? </label>
+                            <input type="radio" name="preg7" value="siempre" required>Siempre<br>
+                            <input type="radio" name="preg7" value="casi siempre">Casi siempre<br>
+                            <input type="radio" name="preg7" value="a veces">A veces<br>
+                            <input type="radio" name="preg7" value="nunca">Nunca<br>
+                        </div>
+
+                        <div class="form-group pt-4">
+
+                            <label class="custom-control text-dark" >8. ¿Tu instructor verifica la comprensión de los temas revisados? </label>
+                            <input type="radio" name="preg8" value="siempre" required>Siempre<br>
+                            <input type="radio" name="preg8" value="casi siempre">Casi siempre<br>
+                            <input type="radio" name="preg8" value="a veces">A veces<br>
+                            <input type="radio" name="preg8" value="nunca">Nunca<br>
+                        </div>
 
                       <div class="form-group pt-4">
                         <center>
@@ -143,6 +162,8 @@
                         </center>  
                       </div>
             </div>           
+
+   
 
       </form>
 
@@ -178,21 +199,27 @@
                             let preg3 = document.querySelector('input[name="preg3"]:checked').value   
 
                             let preg4 = document.querySelector('input[name="preg4"]:checked').value   
+                            
+                            let preg5 = document.querySelector('input[name="preg4"]:checked').value   
+                          
+                            let preg6 = document.querySelector('input[name="preg4"]:checked').value   
 
-                            let comentario =document.getElementById('comentario').value 
+                            let preg7 = document.querySelector('input[name="preg4"]:checked').value   
+
+                            let preg8 = document.querySelector('input[name="preg4"]:checked').value   
+
 
                             
                             var parametros = {  
 
                                 "nomb" : nombre, 
-                                 
-                                "paternophp" : paterno, 
+                                    
 
                                 };
 
                                 $.ajax({
                                             data:  parametros, //datos que se envian a traves de ajax
-                                            url:   'iner.php', //archivo que recibe la peticion
+                                            url:   'encuestaInsert.php', //archivo que recibe la peticion
                                             type:  'post', //método de envio
                                             beforeSend: function () {
                                                 
